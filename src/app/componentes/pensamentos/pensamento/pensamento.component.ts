@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./pensamento.component.css']
 })
 export class PensamentoComponent {
-
+  pensamento = {
+    conteudo: 'I love angular',
+    autoria: 'Nay',
+    modelo: 'modelo3'
+  }
 }
